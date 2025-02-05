@@ -29,3 +29,25 @@ displayOrder() {
 //Call the metod and log the details
 order.displayOrder();
 
+//Task 3: Array Manipulation (push, pop, shift, unshift)
+
+//Declare an array cartItems with three product names
+let cartItems = ["Pensil", "Paper", "Folder"];
+
+//Add a new product to the cart using .push()
+cartItems.push("Binder");
+
+//Remove the last item using .pop()
+cartItems.pop();
+
+//Add an item at the beginning using .unshift()
+cartItems.unshift("Highliter");
+
+//Remove the first item using .shift()
+cartItems.shift();
+
+//Log the final array to the console
+console.log(cartItems);
+
+
+
