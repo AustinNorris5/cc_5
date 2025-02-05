@@ -60,3 +60,13 @@ const discount = prices.map(price => price * 0.9);
 //Log the new discounted prices to the console
 console.log("Discounted Prices: ", discount);
 
+//Task 5: Filter Method
+
+//Declare an array inventory with at least five product quantities
+let inventory = [5, 0, 12, 8, 0];
+
+//Use the .filter() method to remove products with zero stock
+let usableInventory = inventory.filter(quantity => quantity > 0);
+
+//Log the filtered array to the console
+console.log("Inventory: ", usableInventory);
