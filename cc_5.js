@@ -121,5 +121,16 @@ let applyDiscount = function(price, discount) {
 
 applyDiscount(250, 0.3);
 
+//Task 10: Arrow Function
 
+//Write an arrow function
+let calculatePoints = (purchaseAmount) => {
+//Return 1 point per $10 spent and log the result
+    const points = Math.floor(purchaseAmount / 10);
+    console.log(`Purchase Amount: $${purchaseAmount}`)
+    console.log(`Points: ${points}`)
+    return points;
+};
+
+calculatePoints(120);
 
